@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/sidebar.css" />
+    <link rel="stylesheet" href="css/video.css" />
+    <title>Youtube Clone</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <!-- Left Section -->
+      <div class="left-section">
+        <img class="hamburger-menu" src="assets/icons/hamburger-menu.png" />
+        <img class="youtube-logo" src="assets/icons/YouTube.png" />
+      </div>
+      <!-- Middle Section -->
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="assets/icons/search.png" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="assets/icons/voice-search.png" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <!-- Right Section -->
+      <div class="right-section">
+        <img class="upload-icon" src="assets/icons/upload-video.png" />
+        <img class="youtube-icon" src="assets/icons/youtube-apps.png" />
+        <div class="notification-icon-container">
+          <img class="notification-icon" src="assets/icons/notification.png" />
+          <div class="notifications-count">3</div>
+        </div>
+        <img class="current-user-picture" src="assets/icons/profile.jpg" />
+      </div>
+    </header>
+
+    <!-- Side Bar -->
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img class="icon" src="assets/icons/home.png" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="icon" src="assets/icons/explore.png" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="icon" src="assets/icons/subscription.png" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="icon" src="assets/icons/library.png" />
+        <div>Library</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="icon" src="assets/icons/history.png" />
+        <div>History</div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- First Video -->
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumb1.avif" />
+            <div class="video-time">2:20:10</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-pic-1.jpg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">4am.</p>
+              <p class="video-author">Lost Sounds</p>
+              <p class="video-stats">1.4M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Video -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumb2.avif" />
+            <div class="video-time">3:10</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-pic-2.jpg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Fantasy Music for Focus & Calm | The Path of the Elves</p>
+              <p class="video-author">Forest Of Light</p>
+              <p class="video-stats">31K views &#183; 5 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Third Video -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumb3.avif"/>
+            <div class="video-time">7:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-pic-3.jpg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">No more worries.. Just you and campfire</p>
+              <p class="video-author">Chill cartoon Vibes</p>
+              <p class="video-stats">29K views &#183; 1 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fourth Video -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumb4.avif" />
+            <div class="video-time">1:00:02</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-pic-4.jpg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Interstellar but it sounds like snowfall (slowed) (1 hour loop)</p>
+              <p class="video-author">Pandora</p>
+              <p class="video-stats">5.1M views &#183; 5 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fifth Video -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumb5.avif" />
+            <div class="video-time">30:12</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-pic-5.jpg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Nuages - Closer (Slowed Down Version) + Rain ASMR</p>
+              <p class="video-author">Sleepy Brasil</p>
+              <p class="video-stats">134K views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sixth Video -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumb6.avif" />
+            <div class="video-time">1:06:15</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-pic-6.jpg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">DREAMS AFTER WORK</p>
+              <p class="video-author">dream.surfer</p>
+              <p class="video-stats">594K views &#183; 4 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Seventh Video -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumb7.avif" />
+            <div class="video-time">2:26</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-pic-7.jpg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Campfire under the Aurora - Fantasy Music for Weary Travelers</p>
+              <p class="video-author">Elder Melodies</p>
+              <p class="video-stats">156K views &#183; 4 weeks ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Eigth Video -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumb8.avif" />
+            <div class="video-time">2:26</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-pic-8.jpg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Anu - Ancient Mesopotamian Meditation Music</p>
+              <p class="video-author">Panic Music</p>
+              <p class="video-stats">348K views &#183; 3 months ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
