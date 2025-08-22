@@ -1,5 +1,6 @@
 .thumbnail {
   width: 100%;
+  border-radius: 12px;
 }
 
 .video-info-grid {
@@ -23,6 +24,7 @@
 .thumbnail-row {
   margin-bottom: 8px;
   position: relative;
+  border-radius: 12px;
 }
 
 .video-author,
@@ -48,9 +50,9 @@
   }
 }
 
-@media (min-width: 1280px) {
+@media (max-width: 480px) {
   .video-grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -60,8 +62,8 @@
   background: #000;
   color: #ffffff;
   position: absolute;
-  bottom: 8px;
-  right: 5px;
+  bottom: 10px;
+  right: 7px;
   padding: 4px 4px;
   border-radius: 2px;
 }
