@@ -3,7 +3,7 @@
 A clean and minimal **YouTube Clone UI** built using **HTML & CSS**, styled to closely resemble the official YouTube layout.  
 This project is focused on practicing **frontend fundamentals**, **UI/UX replication**, and **modern styling techniques**.  
 
-![Project Preview](assets/preview.png)
+![Project Preview](assets/preview-pic.png)
 
 ---
 
